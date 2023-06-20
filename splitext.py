@@ -30,16 +30,6 @@ def edit(messageid, message, auth, channel):
 	print(r.status_code)
 	return r
 
-def delete(messageid, auth, channel):
-	r = requests.delete(
-			url=f"https://discord.com/api/v9/channels/{channel}/messages/{messageid}",
-			headers=({'authorization': auth})
-		)
-	print(r.status_code,messageid)
-	return r
-
-
-
 with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'splittext.txt'), 'r') as file:
 	text = file.read()
 
