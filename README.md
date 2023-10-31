@@ -1,5 +1,5 @@
 # DiscordSplitText
-A discord (self)bot that splits a long amount of text and spams it in a channel that you choose. 
+A discord (self) bot that splits a long amount of text and spams it in a channel that you choose. 
 
 ## How to Use
 ### Customising what to split
